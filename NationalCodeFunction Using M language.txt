@@ -1,0 +1,12 @@
+let
+    MakeNationalCode = (input as text) =>
+    let
+         NationalLen = if Text.Length(input) < 10 then 10 - Text.Length(input)
+                    else if Text.Length(input) = 10 then 0
+                    else "N/A",
+        Result = if NationalLen <> 0 or  NationalLen <> "N/A" then Text.Repeat("0",NationalLen)& input
+                else input
+    in 
+        Result  
+in
+    MakeNationalCode
