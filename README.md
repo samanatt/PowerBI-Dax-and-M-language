@@ -1,7 +1,7 @@
 # PowerBI-Dax-and-M-language
 using M language in Power Query for Data Cleansing and Using Dax Functions to Analysis Data in powerBI
 
-***************Questions***************************
+# Questions
 Exercise 1:
 Write a function in the M language that takes a national ID as input and checks if it is valid or not. If the ID has fewer than 10 digits, it should insert leading zeros as necessary.
 
@@ -13,8 +13,7 @@ there is a function that lists all available functions within M.
 
 Exercise 3:
 Using the GenerateSeries function, create numbers from 1 to 12 and place them inside a slicer. When the user selects any number, display the corresponding clock symbol using the UNICHAR function.
-
-***************Solutions***************************
+# Solutions
 Exercise 1:
 In this Power BI exercise, you are tasked with creating an M language function to validate national identification numbers. Your function should accept a string representing a national ID as input.
 It must then check whether the provided ID is valid or not. Additionally, if the ID contains fewer than 10 digits, your function should automatically insert leading zeros to ensure it has a total of 10 digits.
